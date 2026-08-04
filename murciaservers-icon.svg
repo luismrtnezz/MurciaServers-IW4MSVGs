@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://w3.org">
-<!-- Logotipo MS - Color Corporativo #ff5500 -->
-<svg height="800px" width="800px" version="1.1" id="Logotipo_MS_Fijo" xmlns="http://w3.org" xmlns:xlink="http://w3.org" viewBox="0 0 512 512" xml:space="preserve">
+<svg height="800px" width="800px" version="1.1" id="Logotipo_MS_Final" xmlns="http://w3.org" xmlns:xlink="http://w3.org" viewBox="0 0 512 512" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#ff5500;}
 </style>
 <g>
-	<!-- Trazo Unificado y Continuo del Logo Completo -->
-	<path class="st0" d="M 40,140 L 98,140 L 160,240 L 222,140 L 280,140 L 280,300 L 235,300 L 235,215 L 160,335 L 85,215 L 85,372 L 40,372 Z M 235,332 L 430,332 C 452,332 465,318 465,295 L 465,270 C 465,248 452,234 430,234 L 330,234 L 330,195 L 430,195 C 465,195 490,215 490,250 L 490,290 C 490,325 465,372 415,372 L 235,372 Z M 330,140 L 490,140 L 490,175 L 330,175 Z"/>
+	<!-- M y S integradas en un solo trazo continuo con curvas cerradas -->
+	<path class="st0" d="M40,140 h60 l60,100 l60,-100 h60 v150 h-45 v-80 l-75,120 l-75,-120 v80 h-45 Z M200,325 h240 c15,0 25,-10 25,-25 v-25 c0,-15 -10,-25 -25,-25 h-110 v-40 h110 c35,0 55,20 55,55 v35 c0,35 -25,65 -65,65 h-230 Z M330,140 h140 c20,0 35,15 35,35 v5 h-40 v-5 h-135 Z"/>
 </g>
 </svg>
