@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://w3.org">
-<svg height="800px" width="800px" version="1.1" id="Logotipo_MS_Final" xmlns="http://w3.org" xmlns:xlink="http://w3.org" viewBox="0 0 512 512" xml:space="preserve">
+<svg height="800px" width="800px" version="1.1" id="Logotipo_MS_Perfecto" xmlns="http://w3.org" xmlns:xlink="http://w3.org" viewBox="0 0 512 512" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#ff5500;}
 </style>
 <g>
-	<!-- M y S integradas en un solo trazo continuo con curvas cerradas -->
-	<path class="st0" d="M40,140 h60 l60,100 l60,-100 h60 v150 h-45 v-80 l-75,120 l-75,-120 v80 h-45 Z M200,325 h240 c15,0 25,-10 25,-25 v-25 c0,-15 -10,-25 -25,-25 h-110 v-40 h110 c35,0 55,20 55,55 v35 c0,35 -25,65 -65,65 h-230 Z M330,140 h140 c20,0 35,15 35,35 v5 h-40 v-5 h-135 Z"/>
+	<!-- Letra M Perfecta -->
+	<path class="st0" d="M50,150 h55 l55,90 l55,-90 h55 v212 h-50 v-115 l-60,95 h-0.5 l-60,-95 v115 h-50 Z"/>
+	
+	<!-- Letra S Perfecta en un solo trazo continuo con curvas de Bézier -->
+	<path class="st0" d="M225,320 h225 c12,0 20,-8 20,-20 v-20 c0,-12 -8,-20 -20,-20 h-120 v-42 h120 c32,0 52,20 52,52 v32 c0,32 -20,52 -52,52 h-225 Z M330,150 h122 c22,0 40,18 40,40 v2 h-48 v-2 c0,-2 -2,-4 -4,-4 h-110 Z"/>
 </g>
 </svg>
