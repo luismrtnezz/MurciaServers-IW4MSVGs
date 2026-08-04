@@ -1,81 +1,25 @@
-<!DOCTYPE html>
-<html lang="es-ES" class="dark">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MurciaServers Logo Concept</title>
-  <!-- Importación de Tailwind CSS para aplicar los estilos visuales de Discord -->
-  <script src="https://tailwindcss.com"></script>
-  <!-- Tipografía estilizada para el branding -->
-  <link href="https://googleapis.com" rel="stylesheet">
-  <style>
-    body { font-family: 'Geist Mono', monospace; }
-  </style>
-</head>
-<body class="bg-[#1e1f22] min-h-screen flex flex-col items-center justify-center p-6 text-[#dbdee1]">
+<svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="35" y="30" width="30" height="50" rx="3" fill="#FF5500" />
+  
+  <rect x="38" y="33" width="24" height="6" rx="1" fill="#FFFFFF" opacity="0.1" />
+  <rect x="38" y="42" width="24" height="6" rx="1" fill="#FFFFFF" opacity="0.1" />
+  <rect x="38" y="51" width="24" height="6" rx="1" fill="#FFFFFF" opacity="0.1" />
+  
+  <path d="M 50 15 A 15 15 0 0 1 65 30 L 50 30 Z" fill="#FF5500" />
+  
+  <rect x="49" y="8" width="2" height="6" transform="rotate(0 50 15)" fill="#FF5500" />
+  <rect x="49" y="8" width="2" height="6" transform="rotate(30 50 15)" fill="#FF5500" />
+  <rect x="49" y="8" width="2" height="6" transform="rotate(60 50 15)" fill="#FF5500" />
+  <rect x="49" y="8" width="2" height="6" transform="rotate(90 50 15)" fill="#FF5500" />
+  <rect x="49" y="8" width="2" height="6" transform="rotate(120 50 15)" fill="#FF5500" />
+  <rect x="49" y="8" width="2" height="6" transform="rotate(150 50 15)" fill="#FF5500" />
+  <rect x="49" y="8" width="2" height="6" transform="rotate(180 50 15)" fill="#FF5500" />
+  <rect x="49" y="8" width="2" height="6" transform="rotate(210 50 15)" fill="#FF5500" />
+  <rect x="49" y="8" width="2" height="6" transform="rotate(240 50 15)" fill="#FF5500" />
+  <rect x="49" y="8" width="2" height="6" transform="rotate(270 50 15)" fill="#FF5500" />
+  <rect x="49" y="8" width="2" height="6" transform="rotate(300 50 15)" fill="#FF5500" />
+  <rect x="49" y="8" width="2" height="6" transform="rotate(330 50 15)" fill="#FF5500" />
 
-  <!-- Contenedor Principal del Logotipo -->
-  <div class="flex flex-col items-center space-y-4 bg-[#2b2d31] p-10 rounded-2xl shadow-2xl border border-[#35373c] transition-all duration-300 hover:scale-105">
-    
-    <!-- Icono Isotipo (MS) en SVG Puro -->
-    <div class="relative w-40 h-40 flex items-center justify-center bg-[#313338] rounded-full p-4 border-2 border-[#5865f2] shadow-inner group">
-      <!-- Efecto de brillo de fondo -->
-      <div class="absolute inset-0 bg-[#5865f2] opacity-10 rounded-full blur-xl group-hover:opacity-20 transition-opacity"></div>
-      
-      <svg class="w-full h-full transform transition-transform duration-500 group-hover:rotate-3" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <!-- Degradado estilo gaming/discord para el trayecto del servidor -->
-          <linearGradient id="discordGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#5865f2" />
-            <stop offset="100%" stop-color="#404eed" />
-          </linearGradient>
-          <!-- Degradado secundario para dar profundidad a la S -->
-          <linearGradient id="silverGrad" x1="0%" y1="100%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#949ba4" />
-            <stop offset="100%" stop-color="#f2f3f5" />
-          </linearGradient>
-        </defs>
-
-        <!-- Inicial 'M' (Estructura de Red / Servidores) -->
-        <path d="M40 150 V60 L85 110 L130 60 V150" 
-              stroke="url(#discordGrad)" 
-              stroke-width="18" 
-              stroke-linecap="round" 
-              stroke-linejoin="round" />
-
-        <!-- Inicial 'S' (Cruzada de fondo de forma limpia y digital) -->
-        <path d="M75 65 C75 45, 145 45, 145 75 C145 105, 55 100, 55 130 C55 160, 125 160, 125 140" 
-              stroke="url(#silverGrad)" 
-              stroke-width="14" 
-              stroke-linecap="round" 
-              stroke-linejoin="round" 
-              opacity="0.9" />
-
-        <!-- Nodos de conexión (Estilo Servidores/Hosting) -->
-        <circle cx="40" cy="60" r="8" fill="#5865f2" />
-        <circle cx="85" cy="110" r="8" fill="#ffffff" />
-        <circle cx="130" cy="60" r="8" fill="#5865f2" />
-        <circle cx="55" cy="130" r="6" fill="#23a55a" /> <!-- Nodo verde: Servidor Online -->
-      </svg>
-    </div>
-
-    <!-- Texto de la Marca (Logotipo) -->
-    <div class="text-center space-y-1">
-      <h1 class="text-3xl font-black tracking-tighter text-white">
-        MURCIA<span class="text-[#5865f2]">SERVERS</span>
-      </h1>
-      <p class="text-xs font-bold tracking-widest text-[#949ba4] uppercase">
-        High Performance Hosting
-      </p>
-    </div>
-
-    <!-- Indicador de Estado estilo Discord -->
-    <div class="flex items-center space-x-2 bg-[#1e1f22] px-4 py-1.5 rounded-full text-xs font-semibold border border-[#35373c]">
-      <span class="w-2.5 h-2.5 bg-[#23a55a] rounded-full animate-pulse"></span>
-      <span class="text-[#949ba4]">Discord Comunidad Activa</span>
-    </div>
-
-  </div>
-
-</body>
-</html>
+  <text x="50" y="90" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#FF5500">MURCIA</text>
+  <text x="50" y="98" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="normal" fill="#FF5500">SERVERS</text>
+</svg>
