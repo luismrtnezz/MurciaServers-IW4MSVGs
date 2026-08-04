@@ -1,30 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="2453" height="1871" viewBox="0 0 2453 1871">
-  <!-- MS Logo - Murcia Servers -->
-  <!-- Estilo minimalista, geom\xe9trico, color #ff5500 -->
-  <path d="M 400 200
-           L 400 1400
-           L 600 1400
-           L 600 600
-           L 900 1400
-           L 1100 1400
-           L 1100 200
-           L 900 200
-           L 900 1000
-           L 600 200
-           L 400 200
-           Z
-           M 1300 200
-           L 1300 1400
-           L 1500 1400
-           L 1500 600
-           L 1800 1400
-           L 2000 1400
-           L 2000 200
-           L 1800 200
-           L 1800 1000
-           L 1500 200
-           L 1300 200
-           Z"
-        fill="#ff5500"/>
+<svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     width="2453" height="1871"
+     viewBox="0 0 2453 1871">
+
+  <!-- Fondo transparente, todo el color viene de los paths -->
+  <rect x="0" y="0" width="2453" height="1871" fill="none"/>
+
+  <!-- Monograma MS centrado -->
+  <!-- M: forma de pilar central con dos diagonales -->
+  <path d="
+    M 600 400
+    L 600 1471
+    L 800 1471
+    L 800 900
+    L 950 1471
+    L 1100 1471
+    L 1250 900
+    L 1250 1471
+    L 1450 1471
+    L 1450 400
+    L 1250 400
+    L 1025 1150
+    L 800 400
+    Z"
+    fill="#ff5500"/>
+
+  <!-- S: forma de S grande a la derecha -->
+  <path d="
+    M 1550 500
+    C 1750 500 1950 550 2050 650
+    C 2150 750 2200 900 2200 1050
+    C 2200 1200 2150 1350 2050 1450
+    C 1950 1550 1800 1600 1600 1600
+    C 1500 1600 1420 1590 1350 1570
+    L 1350 1420
+    C 1420 1450 1500 1470 1600 1470
+    C 1730 1470 1840 1430 1920 1350
+    C 1990 1280 2025 1180 2025 1080
+    C 2025 970 1990 870 1915 800
+    C 1840 730 1730 700 1600 700
+    C 1505 700 1425 715 1350 745
+    L 1350 595
+    C 1425 555 1505 530 1550 500
+    Z"
+    fill="#ff5500"/>
+
 </svg>
