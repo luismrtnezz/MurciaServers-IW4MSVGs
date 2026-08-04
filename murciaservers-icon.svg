@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://w3.org">
-<svg height="800px" width="800px" version="1.1" id="Logotipo_MS_Corregido" xmlns="http://w3.org" xmlns:xlink="http://w3.org" viewBox="0 0 512 512" xml:space="preserve">
+<!-- Convertido y optimizado con la estructura nativa de SVG Repo -->
+<svg height="800px" width="800px" version="1.1" id="Logotipo_MS_Fijo" xmlns="http://w3.org" xmlns:xlink="http://w3.org" viewBox="0 0 512 512" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#ff5500;}
 </style>
 <g>
-	<!-- Bloque 1: Columna izquierda y diagonal de la M -->
-	<path class="st0" d="M50,140 h54 l61,98 l28,-45 v-53 h47 v160 h-47 v-82 l-56,90 h-6 l-81,-130 v122 h-50 Z"/>
+	<!-- Letra M -->
+	<path class="st0" d="M60,150 h55 l55,90 l55,-90 h55 v212 h-50 v-115 l-60,95 h-0.5 l-60,-95 v115 h-50 Z"/>
 	
-	<!-- Bloque 2: Columna derecha de la M -->
-	<path class="st0" d="M240,140 h50 v132 h-50 Z"/>
-	
-	<!-- Bloque 3: Tramo superior de la S (Cinta horizontal alta) -->
-	<path class="st0" d="M340,140 h135 c15,0 25,10 25,25 v5 h-45 v-5 h-115 Z"/>
-	
-	<!-- Bloque 4: Cuerpo curvo y base extendida de la S (Cinta central e inferior) -->
-	<path class="st0" d="M340,230 h115 c15,0 25,10 25,25 v15 c0,15 -10,25 -25,25 h-165 v-35 h-50 v65 h215 c35,0 55,-20 55,-55 v-15 c0,-35 -20,-55 -55,-55 h-115 Z"/>
+	<!-- Letra S: Estructura corregida con esquinas redondeadas matemáticamente -->
+	<path class="st0" d="M340,150 h120 c20,0 35,15 35,35 v5 h-45 v-5 h-110 v40 h110 c32,0 55,20 55,55 v20 c0,35 -23,55 -55,55 h-165 v-35 h115 c15,0 25,-10 25,-25 v-15 c0,-15 -10,-25 -25,-25 h-115 Z"/>
 </g>
 </svg>
