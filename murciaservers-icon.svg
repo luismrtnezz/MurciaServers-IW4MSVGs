@@ -1,12 +1,3 @@
-<svg xmlns="http://w3.org" viewBox="0 0 310 200" width="100%" height="100%">
-  <g fill="#ff5500">
-    <!-- Letra M -->
-    <path d="M 35 34 L 75 34 L 120 115 L 165 34 L 205 34 L 205 152 L 165 152 L 165 74 L 120 152 L 75 74 L 75 204 L 35 204 Z" transform="scale(0.85) translate(15, 20)"/>
-    
-    <!-- Letra S -->
-    <path d="M 197 78 L 290 78 C 300 78 305 84 305 94 L 305 106 C 305 116 300 122 290 122 L 197 122 L 197 152 L 290 152 C 315 152 335 137 335 106 L 335 94 C 335 63 315 48 290 48 L 197 48 Z" transform="scale(0.85) translate(15, 20)"/>
-    <path d="M 167 122 L 290 122 L 290 152 L 167 152 Z" transform="scale(0.85) translate(15, 20)"/>
-    <path d="M 197 15 L 290 15 L 290 45 L 197 45 Z" transform="scale(0.85) translate(15, 20)"/>
-    <path d="M 167 15 L 197 15 C 205 15 210 21 210 30 L 210 50 L 167 50 Z" transform="scale(0.85) translate(15, 20)"/>
-  </g>
+<svg xmlns="http://w3.org" viewBox="0 0 310 190" width="100%" height="100%">
+  <path fill="#ff5500" fill-rule="evenodd" d="M32.8 33.5h31.4l34.4 56.4 34.4-56.4h31.4v101.4h-30.8V79.6l-35 56.4h-0.2l-35-56.4v55.3H98v28.8H32.8V33.5zm131.7 101.4V106h124.9c7.6 0 11.4-4.2 11.4-12.7V81.7c0-8.5-3.8-12.7-11.4-12.7H198.8V33.5h90.6c23 0 34.6 12 34.6 36.1v23.1c0 24.1-11.6 36.1-34.6 36.1l-124.9.1z"/>
 </svg>
