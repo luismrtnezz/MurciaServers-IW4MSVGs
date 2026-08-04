@@ -1,15 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://w3.org">
-<!-- Convertido y optimizado con la estructura nativa de SVG Repo -->
-<svg height="800px" width="800px" version="1.1" id="Logotipo_MS_Fijo" xmlns="http://w3.org" xmlns:xlink="http://w3.org" viewBox="0 0 512 512" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#ff5500;}
-</style>
-<g>
-	<!-- Letra M -->
-	<path class="st0" d="M60,150 h55 l55,90 l55,-90 h55 v212 h-50 v-115 l-60,95 h-0.5 l-60,-95 v115 h-50 Z"/>
-	
-	<!-- Letra S: Estructura corregida con esquinas redondeadas matemáticamente -->
-	<path class="st0" d="M340,150 h120 c20,0 35,15 35,35 v5 h-45 v-5 h-110 v40 h110 c32,0 55,20 55,55 v20 c0,35 -23,55 -55,55 h-165 v-35 h115 c15,0 25,-10 25,-25 v-15 c0,-15 -10,-25 -25,-25 h-115 Z"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="2453" height="1871" viewBox="0 0 2453 1871">
+  <!-- MS Logo - Murcia Servers -->
+  <!-- Estilo minimalista, geom\xe9trico, color #ff5500 -->
+  <path d="M 400 200
+           L 400 1400
+           L 600 1400
+           L 600 600
+           L 900 1400
+           L 1100 1400
+           L 1100 200
+           L 900 200
+           L 900 1000
+           L 600 200
+           L 400 200
+           Z
+           M 1300 200
+           L 1300 1400
+           L 1500 1400
+           L 1500 600
+           L 1800 1400
+           L 2000 1400
+           L 2000 200
+           L 1800 200
+           L 1800 1000
+           L 1500 200
+           L 1300 200
+           Z"
+        fill="#ff5500"/>
 </svg>
